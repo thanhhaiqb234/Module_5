@@ -7,8 +7,7 @@ import {toast} from 'react-toastify';
 function Form_lien_he() {
     const notify = () => toast.success("Successfully submit");
     const handleSubmit = {
-        notify();
-        console.log(`${JSON.stringify(values)}`)
+        notify()
     };
     const initialValue = {
         name: "",
