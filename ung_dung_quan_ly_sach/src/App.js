@@ -1,24 +1,21 @@
-import logo from './logo.svg';
+import { ToastContainer } from 'react-toastify';
 import './App.css';
+import { BookCreate } from './components/BookCreate';
+import { BookList } from './components/BookList';
+import { BookUpdate } from './components/BookUpdate';
+import {Routes, Route} from "react-router-dom";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <>
+        <Routes>
+          <Route path="/books" element={<BookList/>}></Route>
+          <Route path="/create" element={<BookCreate/>}></Route>
+          <Route path="/update/:id" element={<BookUpdate/>}></Route>
+        </Routes>
+        <ToastContainer></ToastContainer>
+      </>
   );
 }
 

@@ -1,0 +1,19 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Hôm nay là thứ mấy ?",
+      "quantity": 8
+    },
+    {
+      "title": "Chúng ta của sau này",
+      "quantity": 6,
+      "id": 3
+    },
+    {
+      "title": "Chúng ta của hiện tại",
+      "quantity": 9,
+      "id": 4
+    }
+  ]
+}
