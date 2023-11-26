@@ -1,0 +1,24 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "task": "task1"
+    },
+    {
+      "id": 2,
+      "task": "task2"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "json-server123",
+      "quantity": 123
+    },
+    {
+      "title": "123123132",
+      "quantity": 123,
+      "id": 2
+    }
+  ]
+}
